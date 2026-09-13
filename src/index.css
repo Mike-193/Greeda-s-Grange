@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Fraunces", Georgia, serif;
+  --font-sans: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  --color-grange-green: #1e3d2f;
+  --color-grange-clay: #c97d60;
+  --color-grange-beige: #faf7f2;
+  --color-grange-charcoal: #1c1a18;
+}
+
+:root {
+  /* Fallback before Header measures the real fixed ribbon+nav height via ResizeObserver */
+  --header-h: 100px;
+}
+
+html, body {
+  background-color: #faf7f2;
+  color: #1c1a18;
+  font-family: var(--font-sans);
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+
+/* Every anchor-linked section lands right below the fixed header instead of behind it,
+   shifted up slightly so it sits a touch closer to the nav. */
+[id] {
+  scroll-margin-top: calc(var(--header-h) - 10px);
+}
+
+.font-serif {
+  font-family: var(--font-serif), Georgia, serif;
+}
+
+.font-mono {
+  font-family: var(--font-mono), monospace;
+}

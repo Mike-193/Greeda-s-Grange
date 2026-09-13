@@ -1,0 +1,104 @@
+{
+  "rooms": [
+    {
+      "id": "room-1",
+      "name": "Room 1",
+      "shortDesc": "A serene mountain-facing sanctuary looking out onto misty forest peaks.",
+      "description": "Room 1 offers panoramic views of the Western Ghats mountain range of Attappadi. Complete with handcrafted wooden furnishings, organic cotton textiles, and a private balcony to enjoy the fresh tropical Kerala breeze.",
+      "capacity": 2,
+      "pricePerNight": 6999,
+      "image": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1000&q=80",
+      "amenities": [
+        "King Bed",
+        "En-suite Bath",
+        "Private Balcony",
+        "Tea & Coffee Maker",
+        "Premium Linens",
+        "Wi-Fi"
+      ],
+      "sizeSqFt": 340,
+      "bedType": "1 Luxury King",
+      "features": [
+        "Private balcony with mountain views",
+        "Artisanal wooden dressing table",
+        "En-suite rain shower with spring water",
+        "Fresh complimentary banana chips and local tea"
+      ]
+    },
+    {
+      "id": "room-2",
+      "name": "Room 2",
+      "shortDesc": "Cozy and rustic clay-themed retreat designed for traditional relaxation.",
+      "description": "Room 2 embraces natural earth elements and hand-crafted stone interiors. Featuring gorgeous custom wood decor, high-pitched ventilation, and windows that open straight to the native fruiting canopy.",
+      "capacity": 2,
+      "pricePerNight": 7999,
+      "image": "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=1000&q=80",
+      "amenities": [
+        "Queen Bed",
+        "Attached Modern Bath",
+        "Garden Entry",
+        "Local Heritage Decor",
+        "Sound System",
+        "Wi-Fi"
+      ],
+      "sizeSqFt": 280,
+      "bedType": "1 Cozy Queen",
+      "features": [
+        "Direct stepping-stone path access to the wild orchid grove",
+        "Handcrafted terracotta planters with native herbs",
+        "Comfortable window seat looking into the valley",
+        "Pure essential oil diffuser with ginger-grass"
+      ]
+    },
+    {
+      "id": "room-3",
+      "name": "Room 3",
+      "shortDesc": "Environmentally safe bamboo and wood cottage with panoramic canopy views.",
+      "description": "Our highest sanctuary, Room 3 features sustainable bamboo work and sliding glass doors that completely merge the bedroom with the forest canopy. Highly private and surrounded by lush green foliage.",
+      "capacity": 2,
+      "pricePerNight": 9499,
+      "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1000&q=80",
+      "amenities": [
+        "King Bed",
+        "Veranda Seating",
+        "Skylight Stargazing",
+        "Foraged Garden Basket",
+        "Hanging Hammock",
+        "Wi-Fi"
+      ],
+      "sizeSqFt": 300,
+      "bedType": "1 Premium King Bed",
+      "features": [
+        "Sliding bamboo screens for natural shade",
+        "Private sunrise hammock under the trees",
+        "Stitch-framed skylight above the canopy of the forest",
+        "Daily freshly squeezed passion fruit juice"
+      ]
+    },
+    {
+      "id": "room-4",
+      "name": "Room 4",
+      "shortDesc": "Expansive plantation suite designed for family slow-living.",
+      "description": "Our largest accommodation, Room 4 is a luxury bedroom featuring teak wood flooring and classic high ceilings. Outfitted with separate reading alcoves and direct access to the communal firepit and dining hall.",
+      "capacity": 4,
+      "pricePerNight": 13999,
+      "image": "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1000&q=80",
+      "amenities": [
+        "King Bed",
+        "Two Single Daybeds",
+        "Reading Alcove",
+        "Teak Wood Floors",
+        "Tea-Coffee Station",
+        "Wi-Fi"
+      ],
+      "sizeSqFt": 580,
+      "bedType": "1 King Bed + 2 Daybeds",
+      "features": [
+        "Premium spacious layout with wooden reading table",
+        "Double rain showers and organic spice bath-salts",
+        "Private terrace with views of the Jellippara mountain ridges",
+        "In-room local coffee selection cooked on brass pots"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "items": [
+    {
+      "category": "Booking & Stay",
+      "question": "When is check-in and check-out?",
+      "answer": "Check-in is welcome anytime between 3:00 PM and 8:00 PM. Check-out is by 11:00 AM so we can freshly bake Malabar puttu and prepare rooms for the next incoming guests."
+    },
+    {
+      "category": "Booking & Stay",
+      "question": "Are pets allowed?",
+      "answer": "Yes! We love pets. Dogs are highly welcome at Greeda’s Grange (especially in Room 4 as it has direct garden lawn access). We only ask that you keep them off the linen beds and respect our resident wildlife."
+    },
+    {
+      "category": "Dining & Food",
+      "question": "Can you cater to dietary restrictions?",
+      "answer": "Absolutely. Greeda can prepare gluten-free rice puttu, dairy-free spreads, and custom vegan platters. Please mention any allergies or dietary preferences in your booking special requests!"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "reviews": [
+    {
+      "id": "rev-1",
+      "author": "Clara & Thomas",
+      "rating": 5,
+      "date": "2026-05-18",
+      "text": "Absolutely otherworldly! We stayed at Room 1 for our third anniversary. The steamed banana puttu Greeda made for us was still warm when we woke up. Sleeping under the high roofs while listening to the Attappadi forest birds felt like stepping back in time with all the modern comforts you could ever want.",
+      "stayedIn": "Room 1",
+      "hostReply": "Happy Anniversary Clara & Thomas! It was an absolute delight hosting you both. The forest birds love singing to our wonderful guests. Come back next year!"
+    },
+    {
+      "id": "rev-2",
+      "author": "The Peterson Family",
+      "rating": 5,
+      "date": "2026-04-29",
+      "text": "The kids couldn't get enough of the open lawns and Room 4! They spent hours running around the spice gardens and roasting snacks by the fieldstone pit. Safe, extremely clean, quiet, and absolutely magical. The cottage surroundings are breathtaking.",
+      "stayedIn": "Room 4",
+      "hostReply": "Thank you Petersons! The bananas are harvested right from the orchard behind Room 4. So glad the little ones got to feed our local mountain goats too."
+    },
+    {
+      "id": "rev-3",
+      "author": "Arthur Finch",
+      "rating": 5,
+      "date": "2026-03-12",
+      "text": "A perfect digital detox. I spent four nights in Room 3 reading, writing, and tending to the natural breezes. Greeda's home-brewed ginger tea is something of legends. I haven't slept this soundly in decades.",
+      "stayedIn": "Room 3",
+      "hostReply": "Arthur, your calm company was a blessing to the Grange. That ginger batch was spiced with wild cardamom. You are welcome here anytime."
+    }
+  ]
+}

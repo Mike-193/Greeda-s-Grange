@@ -1,0 +1,29 @@
+{
+  "title": "The Sanctuary",
+  "description": "A collection of quiet corners, heritage architecture and the natural landscape surrounding Greeda’s Grange.",
+  "featuredPhotoIds": [
+    "property-1",
+    "property-2",
+    "property-3"
+  ],
+  "photos": [
+    {
+      "id": "property-1",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Attappadi.jpg/500px-Attappadi.jpg",
+      "alt": "The Attappadi Valley, Palakkad District",
+      "caption": "The Valley"
+    },
+    {
+      "id": "property-2",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Westernghats_river_gobi.jpg/500px-Westernghats_river_gobi.jpg",
+      "alt": "Bhavani River Valley, Western Ghats",
+      "caption": "River Valley"
+    },
+    {
+      "id": "property-3",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/AnaimudiPeak_DSC_4834.jpg/500px-AnaimudiPeak_DSC_4834.jpg",
+      "alt": "Misty Peaks of the Western Ghats",
+      "caption": "The Valleys"
+    }
+  ]
+}

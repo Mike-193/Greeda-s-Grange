@@ -1,0 +1,52 @@
+{
+  "items": [
+    {
+      "id": "neem",
+      "localName": "Neem",
+      "scientificName": "Azadirachta indica",
+      "description": "Grows wild along the estate boundary; its leaves are used in our natural pest-deterrent sachets rather than any spray.",
+      "category": "flora",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Neem_%28Azadirachta_indica%29_leaves_%26_flowers_in_Kolkata_W_IMG_6199.jpg/500px-Neem_%28Azadirachta_indica%29_leaves_%26_flowers_in_Kolkata_W_IMG_6199.jpg"
+    },
+    {
+      "id": "mango",
+      "localName": "Mango",
+      "scientificName": "Mangifera indica",
+      "description": "Century-old trees left standing when the estate was restored — expect fallen fruit underfoot in early summer.",
+      "category": "flora",
+      "image": "https://images.unsplash.com/photo-1591073113125-e46713c829ed?auto=format&fit=crop&w=700&q=80"
+    },
+    {
+      "id": "wild-cardamom",
+      "localName": "Wild Cardamom",
+      "scientificName": "Elettaria cardamomum",
+      "description": "Grows in the shaded understory near the streams; the source of the cardamom in Greeda's morning tea.",
+      "category": "flora",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/02017_0119_Kardamom%2C_Winter_in_den_Beskiden.jpg/330px-02017_0119_Kardamom%2C_Winter_in_den_Beskiden.jpg"
+    },
+    {
+      "id": "indian-peafowl",
+      "localName": "Indian Peafowl",
+      "scientificName": "Pavo cristatus",
+      "description": "Often heard at dawn from the paddock edge; a resident pair has nested near the old rosewood grove for years.",
+      "category": "fauna",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Peacock_on_tree_%2852077240794%29.jpg/330px-Peacock_on_tree_%2852077240794%29.jpg"
+    },
+    {
+      "id": "malabar-giant-squirrel",
+      "localName": "Malabar Giant Squirrel",
+      "scientificName": "Ratufa indica",
+      "description": "A shy, striking presence in the forest canopy — look up along the hiking trail just after sunrise.",
+      "category": "fauna",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Indian_giant_squirrel_in_Kuldiha_Wildlife_Sanctuary_March_2025_by_Tisha_Mukherjee_01.jpg/330px-Indian_giant_squirrel_in_Kuldiha_Wildlife_Sanctuary_March_2025_by_Tisha_Mukherjee_01.jpg"
+    },
+    {
+      "id": "common-kingfisher",
+      "localName": "Common Kingfisher",
+      "scientificName": "Alcedo atthis",
+      "description": "A flash of blue along the estate's stream paths, usually spotted perched low over the water.",
+      "category": "fauna",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Alcedo_atthis_-England-8_%28cropped%29.jpg/330px-Alcedo_atthis_-England-8_%28cropped%29.jpg"
+    }
+  ]
+}

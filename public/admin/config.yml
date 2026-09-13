@@ -1,0 +1,891 @@
+backend:
+  name: github
+  repo: Mike-193/Greeda-s-Grange
+  branch: main
+  open_authoring: true
+publish_mode: editorial_workflow
+media_folder: public/uploads
+public_folder: /uploads
+collections:
+- name: website
+  label: Website Content
+  files:
+  - label: Main Website
+    name: site
+    file: src/content/site.json
+    format: json
+    fields:
+    - label: Brand
+      name: brand
+      widget: object
+      fields:
+      - label: Name
+        name: name
+        widget: string
+      - label: Tagline
+        name: tagline
+        widget: string
+      - label: Established Label
+        name: establishedLabel
+        widget: string
+      - label: Seasonal Notices
+        name: seasonalNotices
+        widget: object
+        fields:
+        - label: '01'
+          name: '01'
+          widget: string
+        - label: '02'
+          name: '02'
+          widget: string
+        - label: '03'
+          name: '03'
+          widget: string
+        - label: '04'
+          name: '04'
+          widget: string
+        - label: '05'
+          name: '05'
+          widget: string
+        - label: '06'
+          name: '06'
+          widget: string
+        - label: '07'
+          name: '07'
+          widget: string
+        - label: '08'
+          name: '08'
+          widget: string
+        - label: '09'
+          name: '09'
+          widget: string
+        - label: '10'
+          name: '10'
+          widget: string
+        - label: '11'
+          name: '11'
+          widget: string
+        - label: '12'
+          name: '12'
+          widget: string
+      - label: Location Short
+        name: locationShort
+        widget: string
+      - label: Heritage Badge
+        name: heritageBadge
+        widget: string
+      - label: Seasonal
+        name: seasonal
+        widget: object
+        fields:
+        - label: Enabled
+          name: enabled
+          widget: boolean
+        - label: Title
+          name: title
+          widget: string
+        - label: Description
+          name: description
+          widget: string
+        - label: Image
+          name: image
+          widget: object
+          fields:
+          - label: Src
+            name: src
+            widget: image
+          - label: Alt
+            name: alt
+            widget: string
+    - label: Nav
+      name: nav
+      widget: object
+      fields:
+      - label: Menu Items
+        name: menuItems
+        widget: list
+        summary: '{{label}}'
+        fields:
+        - label: Label
+          name: label
+          widget: string
+        - label: Href
+          name: href
+          widget: string
+      - label: Book Button Label
+        name: bookButtonLabel
+        widget: string
+      - label: Mobile Drawer Title
+        name: mobileDrawerTitle
+        widget: string
+      - label: Mobile Footer Note
+        name: mobileFooterNote
+        widget: string
+    - label: Hero
+      name: hero
+      widget: object
+      fields:
+      - label: Badge
+        name: badge
+        widget: string
+      - label: Heading Lines
+        name: headingLines
+        widget: list
+        field:
+          label: Item
+          name: item
+          widget: string
+      - label: Paragraph
+        name: paragraph
+        widget: text
+      - label: Primary Cta
+        name: primaryCta
+        widget: string
+      - label: Secondary Cta
+        name: secondaryCta
+        widget: string
+      - label: Trust Metrics
+        name: trustMetrics
+        widget: list
+        summary: '{{value}}'
+        fields:
+        - label: Value
+          name: value
+          widget: string
+        - label: Label
+          name: label
+          widget: string
+        - label: Icon
+          name: icon
+          widget: string
+      - label: Main Image
+        name: mainImage
+        widget: object
+        fields:
+        - label: Src
+          name: src
+          widget: image
+        - label: Alt
+          name: alt
+          widget: string
+        - label: Caption
+          name: caption
+          widget: string
+        - label: Caption Sub
+          name: captionSub
+          widget: string
+      - label: Polaroid Image
+        name: polaroidImage
+        widget: object
+        fields:
+        - label: Src
+          name: src
+          widget: image
+        - label: Alt
+          name: alt
+          widget: string
+        - label: Caption
+          name: caption
+          widget: string
+        - label: Caption Sub
+          name: captionSub
+          widget: string
+      - label: Medal Label
+        name: medalLabel
+        widget: string
+    - label: Sanctuary
+      name: sanctuary
+      widget: object
+      fields:
+      - label: Eyebrow
+        name: eyebrow
+        widget: string
+      - label: Heading Lines
+        name: headingLines
+        widget: list
+        field:
+          label: Item
+          name: item
+          widget: string
+      - label: Paragraphs
+        name: paragraphs
+        widget: list
+        field:
+          label: Item
+          name: item
+          widget: text
+      - label: Images
+        name: images
+        widget: list
+        summary: '{{src}}'
+        fields:
+        - label: Src
+          name: src
+          widget: image
+        - label: Alt
+          name: alt
+          widget: string
+      - label: Highlights
+        name: highlights
+        widget: list
+        summary: '{{title}}'
+        fields:
+        - label: Title
+          name: title
+          widget: string
+        - label: Text
+          name: text
+          widget: text
+    - label: Rooms
+      name: rooms
+      widget: object
+      fields:
+      - label: Eyebrow
+        name: eyebrow
+        widget: string
+      - label: Heading
+        name: heading
+        widget: string
+      - label: Description
+        name: description
+        widget: text
+      - label: Highlights Label
+        name: highlightsLabel
+        widget: string
+      - label: Select Button Label
+        name: selectButtonLabel
+        widget: string
+      - label: Selected Button Label
+        name: selectedButtonLabel
+        widget: string
+      - label: Active Selection Label
+        name: activeSelectionLabel
+        widget: string
+      - label: Min Nights Suffix
+        name: minNightsSuffix
+        widget: string
+      - label: Sleeps Label
+        name: sleepsLabel
+        widget: string
+      - label: Area Label
+        name: areaLabel
+        widget: string
+      - label: Beds Label
+        name: bedsLabel
+        widget: string
+      - label: Guests Suffix
+        name: guestsSuffix
+        widget: string
+      - label: Area Suffix
+        name: areaSuffix
+        widget: string
+    - label: Amenities Section
+      name: amenitiesSection
+      widget: object
+      fields:
+      - label: Eyebrow
+        name: eyebrow
+        widget: string
+      - label: Heading
+        name: heading
+        widget: string
+      - label: Description
+        name: description
+        widget: text
+      - label: Categories
+        name: categories
+        widget: list
+        summary: '{{label}}'
+        fields:
+        - label: Label
+          name: label
+          widget: string
+        - label: Value
+          name: value
+          widget: string
+      - label: Spotlight Eyebrow
+        name: spotlightEyebrow
+        widget: string
+      - label: Highlights Label
+        name: highlightsLabel
+        widget: string
+    - label: Flora Fauna Section
+      name: floraFaunaSection
+      widget: object
+      fields:
+      - label: Eyebrow
+        name: eyebrow
+        widget: string
+      - label: Heading
+        name: heading
+        widget: string
+      - label: Description
+        name: description
+        widget: text
+      - label: Scientific Name Label
+        name: scientificNameLabel
+        widget: string
+    - label: Booking Section
+      name: bookingSection
+      widget: object
+      fields:
+      - label: Eyebrow
+        name: eyebrow
+        widget: string
+      - label: Heading
+        name: heading
+        widget: string
+      - label: Room Label
+        name: roomLabel
+        widget: string
+      - label: Check In Label
+        name: checkInLabel
+        widget: string
+      - label: Check Out Label
+        name: checkOutLabel
+        widget: string
+      - label: Name Label
+        name: nameLabel
+        widget: string
+      - label: Name Placeholder
+        name: namePlaceholder
+        widget: string
+      - label: Email Label
+        name: emailLabel
+        widget: string
+      - label: Email Placeholder
+        name: emailPlaceholder
+        widget: string
+      - label: Guests Label
+        name: guestsLabel
+        widget: string
+      - label: Phone Label
+        name: phoneLabel
+        widget: string
+      - label: Phone Optional
+        name: phoneOptional
+        widget: string
+      - label: Phone Placeholder
+        name: phonePlaceholder
+        widget: string
+      - label: Requests Label
+        name: requestsLabel
+        widget: string
+      - label: Requests Placeholder
+        name: requestsPlaceholder
+        widget: text
+      - label: Min Nights Error
+        name: minNightsError
+        widget: string
+      - label: Min Nights Notice
+        name: minNightsNotice
+        widget: string
+      - label: Subtotal Label Suffix
+        name: subtotalLabelSuffix
+        widget: string
+      - label: Tax Label
+        name: taxLabel
+        widget: string
+      - label: Clean Fee Label
+        name: cleanFeeLabel
+        widget: string
+      - label: Total Label
+        name: totalLabel
+        widget: string
+      - label: Submit Button Label
+        name: submitButtonLabel
+        widget: string
+      - label: Success Title
+        name: successTitle
+        widget: string
+      - label: Confirmation Prefix
+        name: confirmationPrefix
+        widget: string
+      - label: Hostess Label
+        name: hostessLabel
+        widget: string
+      - label: Hostess Name
+        name: hostessName
+        widget: string
+      - label: Guest Label
+        name: guestLabel
+        widget: string
+      - label: Suite Label
+        name: suiteLabel
+        widget: string
+      - label: Stay Length Label
+        name: stayLengthLabel
+        widget: string
+      - label: Stay Calendar Label
+        name: stayCalendarLabel
+        widget: string
+      - label: Requests Shown Label
+        name: requestsShownLabel
+        widget: string
+      - label: Invoice Label
+        name: invoiceLabel
+        widget: string
+      - label: Trust Note
+        name: trustNote
+        widget: text
+      - label: Empty State Title
+        name: emptyStateTitle
+        widget: string
+      - label: Empty State Text
+        name: emptyStateText
+        widget: text
+      - label: Stored Inquiries Label
+        name: storedInquiriesLabel
+        widget: string
+      - label: Storage Tag
+        name: storageTag
+        widget: string
+    - label: Reviews Section
+      name: reviewsSection
+      widget: object
+      fields:
+      - label: Eyebrow
+        name: eyebrow
+        widget: string
+      - label: Heading
+        name: heading
+        widget: string
+      - label: Description
+        name: description
+        widget: text
+      - label: Form Title
+        name: formTitle
+        widget: string
+      - label: Name Label
+        name: nameLabel
+        widget: string
+      - label: Name Placeholder
+        name: namePlaceholder
+        widget: string
+      - label: Room Label
+        name: roomLabel
+        widget: string
+      - label: Rating Label
+        name: ratingLabel
+        widget: string
+      - label: Text Label
+        name: textLabel
+        widget: string
+      - label: Text Placeholder
+        name: textPlaceholder
+        widget: string
+      - label: Submit Label
+        name: submitLabel
+        widget: string
+      - label: Submitting Label
+        name: submittingLabel
+        widget: string
+      - label: Filter Label
+        name: filterLabel
+        widget: string
+      - label: Empty State Text
+        name: emptyStateText
+        widget: string
+      - label: Stayed In Prefix
+        name: stayedInPrefix
+        widget: string
+      - label: Host Reply Name
+        name: hostReplyName
+        widget: string
+      - label: Host Reply Tag
+        name: hostReplyTag
+        widget: string
+      - label: Google Reviews Label
+        name: googleReviewsLabel
+        widget: string
+      - label: Google Reviews Url
+        name: googleReviewsUrl
+        widget: string
+    - label: Location Section
+      name: locationSection
+      widget: object
+      fields:
+      - label: Eyebrow
+        name: eyebrow
+        widget: string
+      - label: Heading Lines
+        name: headingLines
+        widget: list
+        field:
+          label: Item
+          name: item
+          widget: string
+      - label: Paragraph
+        name: paragraph
+        widget: text
+      - label: Plus Code Label
+        name: plusCodeLabel
+        widget: string
+      - label: Plus Code
+        name: plusCode
+        widget: string
+      - label: Plus Code Hint
+        name: plusCodeHint
+        widget: text
+      - label: Maps Button Label
+        name: mapsButtonLabel
+        widget: string
+      - label: Maps Url
+        name: mapsUrl
+        widget: string
+      - label: Map Embed Url
+        name: mapEmbedUrl
+        widget: text
+      - label: Overlay Title
+        name: overlayTitle
+        widget: string
+      - label: Overlay Address
+        name: overlayAddress
+        widget: string
+      - label: Directions Button Label
+        name: directionsButtonLabel
+        widget: string
+    - label: Faq Section
+      name: faqSection
+      widget: object
+      fields:
+      - label: Eyebrow
+        name: eyebrow
+        widget: string
+      - label: Heading
+        name: heading
+        widget: string
+      - label: Description
+        name: description
+        widget: string
+      - label: Category Label
+        name: categoryLabel
+        widget: string
+    - label: Footer
+      name: footer
+      widget: object
+      fields:
+      - label: Tagline
+        name: tagline
+        widget: text
+      - label: Rooms Heading
+        name: roomsHeading
+        widget: string
+      - label: Contact Heading
+        name: contactHeading
+        widget: string
+      - label: Address
+        name: address
+        widget: string
+      - label: Phone
+        name: phone
+        widget: string
+      - label: Email
+        name: email
+        widget: string
+      - label: Copyright Suffix
+        name: copyrightSuffix
+        widget: string
+      - label: Legal Links
+        name: legalLinks
+        widget: list
+        field:
+          label: Item
+          name: item
+          widget: string
+      - label: Made With Note
+        name: madeWithNote
+        widget: string
+- name: booking
+  label: Booking & Contact Settings
+  files:
+  - label: Booking & Contact Settings
+    name: booking
+    file: src/content/booking.json
+    format: json
+    fields:
+    - label: Airbnb Url
+      name: airbnbUrl
+      widget: string
+    - label: Calendar Url
+      name: calendarUrl
+      widget: text
+    - label: Reserve Button Label
+      name: reserveButtonLabel
+      widget: string
+    - label: Reserve Note
+      name: reserveNote
+      widget: string
+    - label: Unavailable Error
+      name: unavailableError
+      widget: string
+    - label: Unavailable Label
+      name: unavailableLabel
+      widget: string
+    - label: Select Date Placeholder
+      name: selectDatePlaceholder
+      widget: string
+    - label: Calendar Legend Selected
+      name: calendarLegendSelected
+      widget: string
+    - label: Calendar Legend In Range
+      name: calendarLegendInRange
+      widget: string
+    - label: Calendar Legend Unavailable
+      name: calendarLegendUnavailable
+      widget: string
+    - label: Min Nights
+      name: minNights
+      widget: number
+      value_type: int
+    - label: Tax Rate
+      name: taxRate
+      widget: number
+      value_type: float
+      step: 0.01
+    - label: Clean Fee
+      name: cleanFee
+      widget: number
+      value_type: int
+    - label: Currency Symbol
+      name: currencySymbol
+      widget: string
+    - label: Direct Booking Title
+      name: directBookingTitle
+      widget: string
+    - label: Direct Booking Message
+      name: directBookingMessage
+      widget: text
+    - label: Direct Booking Phone
+      name: directBookingPhone
+      widget: string
+    - label: Direct Booking Note
+      name: directBookingNote
+      widget: string
+    - label: Whatsapp Number
+      name: whatsappNumber
+      widget: string
+    - label: Whatsapp Message Intro
+      name: whatsappMessageIntro
+      widget: string
+- name: rooms
+  label: Rooms & Lodges
+  files:
+  - label: Rooms & Lodges
+    name: rooms
+    file: src/content/rooms.json
+    format: json
+    fields:
+    - label: Rooms
+      name: rooms
+      widget: list
+      summary: '{{name}}'
+      fields:
+      - label: Id
+        name: id
+        widget: string
+      - label: Name
+        name: name
+        widget: string
+      - label: Short Desc
+        name: shortDesc
+        widget: string
+      - label: Description
+        name: description
+        widget: text
+      - label: Capacity
+        name: capacity
+        widget: number
+        value_type: int
+      - label: Price Per Night
+        name: pricePerNight
+        widget: number
+        value_type: int
+      - label: Image
+        name: image
+        widget: image
+      - label: Amenities
+        name: amenities
+        widget: list
+        field:
+          label: Item
+          name: item
+          widget: string
+      - label: Size Sq Ft
+        name: sizeSqFt
+        widget: number
+        value_type: int
+      - label: Bed Type
+        name: bedType
+        widget: string
+      - label: Features
+        name: features
+        widget: list
+        field:
+          label: Item
+          name: item
+          widget: string
+- name: gallery
+  label: Property Gallery
+  files:
+  - label: Property Gallery
+    name: gallery
+    file: src/content/gallery.json
+    format: json
+    fields:
+    - label: Title
+      name: title
+      widget: string
+    - label: Description
+      name: description
+      widget: text
+    - label: Featured Photo Ids
+      name: featuredPhotoIds
+      widget: list
+      field:
+        label: Item
+        name: item
+        widget: string
+    - label: Photos
+      name: photos
+      widget: list
+      summary: '{{id}}'
+      fields:
+      - label: Id
+        name: id
+        widget: string
+      - label: Src
+        name: src
+        widget: image
+      - label: Alt
+        name: alt
+        widget: string
+      - label: Caption
+        name: caption
+        widget: string
+- name: amenities
+  label: Amenities
+  files:
+  - label: Amenities
+    name: amenities
+    file: src/content/amenities.json
+    format: json
+    fields:
+    - label: Amenities
+      name: items
+      widget: list
+      summary: '{{title}}'
+      fields:
+      - label: Id
+        name: id
+        widget: string
+      - label: Title
+        name: title
+        widget: string
+      - label: Description
+        name: description
+        widget: text
+      - label: Category
+        name: category
+        widget: string
+      - label: Icon
+        name: icon
+        widget: string
+      - label: Image
+        name: image
+        widget: image
+      - label: Highlights
+        name: highlights
+        widget: list
+        field:
+          label: Item
+          name: item
+          widget: string
+- name: flora-fauna
+  label: Flora & Fauna
+  files:
+  - label: Flora & Fauna
+    name: flora-fauna
+    file: src/content/floraFauna.json
+    format: json
+    fields:
+    - label: Catalogue
+      name: items
+      widget: list
+      summary: '{{localName}}'
+      fields:
+      - label: Id
+        name: id
+        widget: string
+      - label: Local Name
+        name: localName
+        widget: string
+      - label: Scientific Name
+        name: scientificName
+        widget: string
+      - label: Description
+        name: description
+        widget: text
+      - label: Category
+        name: category
+        widget: string
+      - label: Image
+        name: image
+        widget: image
+- name: faqs
+  label: FAQs
+  files:
+  - label: FAQs
+    name: faqs
+    file: src/content/faqs.json
+    format: json
+    fields:
+    - label: Questions
+      name: items
+      widget: list
+      summary: '{{question}}'
+      fields:
+      - label: Category
+        name: category
+        widget: string
+      - label: Question
+        name: question
+        widget: string
+      - label: Answer
+        name: answer
+        widget: text
+- name: reviews
+  label: Guestbook Reviews
+  files:
+  - label: Guestbook Reviews
+    name: reviews
+    file: src/content/reviews.json
+    format: json
+    fields:
+    - label: Reviews
+      name: reviews
+      widget: list
+      summary: '{{author}}'
+      fields:
+      - label: Id
+        name: id
+        widget: string
+      - label: Author
+        name: author
+        widget: string
+      - label: Rating
+        name: rating
+        widget: number
+        value_type: int
+      - label: Date
+        name: date
+        widget: string
+      - label: Text
+        name: text
+        widget: text
+      - label: Stayed In
+        name: stayedIn
+        widget: string
+      - label: Host Reply
+        name: hostReply
+        widget: text

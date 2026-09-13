@@ -1,0 +1,56 @@
+{
+  "items": [
+    {
+      "id": "meadow-hearth",
+      "title": "Campfire & Valley Gazing",
+      "description": "Our communal firepit is stacked with premium teak and cedar wood reserves, spices, and roasted local delicacies prepared under the starry Jellippara skies.",
+      "category": "nature",
+      "icon": "Flame",
+      "image": "https://images.unsplash.com/photo-1475483768296-6163e08872a1?auto=format&fit=crop&w=700&q=80",
+      "highlights": [
+        "Starlit valley view",
+        "Fresh hickory wood supplied",
+        "Gourmet roasting skewers"
+      ]
+    },
+    {
+      "id": "greedas-pantry",
+      "title": "Greeda’s Malabar Breakfast",
+      "description": "Wake up to freshly-made traditional Malabar puttu, house-steamed bananas, pure forest honey, farm-fresh eggs, and hot Wayanad filter coffee.",
+      "category": "dining",
+      "icon": "Coffee",
+      "image": "https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=700&q=80",
+      "highlights": [
+        "100% locally sourced",
+        "Warm morning bakes",
+        "Organic herbal chai"
+      ]
+    },
+    {
+      "id": "high-speed-fiber",
+      "title": "High-Speed Forest Fiber",
+      "description": "Though we encourage a full digital detox, rapid 500Mbps Starlink Wi-Fi is available in all rooms and courtyard areas should you need to stay in touch.",
+      "category": "utilities",
+      "icon": "Wifi",
+      "image": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?auto=format&fit=crop&w=700&q=80",
+      "highlights": [
+        "Starlink high reliability",
+        "Outdoor coverage",
+        "No password hassle"
+      ]
+    },
+    {
+      "id": "hiking-trails",
+      "title": "Attappadi River & Hill Trails",
+      "description": "Direct trailhead access to the classic paths winding through neighboring valleys, crystal clear hill streams, and indigenous forest margins.",
+      "category": "nature",
+      "icon": "Compass",
+      "image": "https://images.unsplash.com/photo-1516214104703-d870798883c5?auto=format&fit=crop&w=700&q=80",
+      "highlights": [
+        "Curated trail maps",
+        "Complimentary gumboots",
+        "Birdwatching field guides"
+      ]
+    }
+  ]
+}

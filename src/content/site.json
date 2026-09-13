@@ -1,0 +1,283 @@
+{
+  "brand": {
+    "name": "Greeda’s Grange",
+    "tagline": "Countryside Sanctuary",
+    "establishedLabel": "ESTD. 1894 • ATTAPPADI VALLEY SANCTUARY",
+    "seasonalNotices": {
+      "01": "Now in Season: Pepper Harvest & Winter Mist",
+      "02": "Now in Season: Coffee Blossoms & Cool Mornings",
+      "03": "Now in Season: Wild Mangoes Ripening",
+      "04": "Now in Season: Jackfruits & Summer Blooms",
+      "05": "Now in Season: Jackfruits & Wild Orchids",
+      "06": "Now in Season: Monsoon Rains & Fresh Greenery",
+      "07": "Now in Season: Wild Orchids & Misty Valleys",
+      "08": "Now in Season: Cardamom Harvest Begins",
+      "09": "Now in Season: Rambutan & Late Monsoon Blooms",
+      "10": "Now in Season: Cardamom & Golden Paddy Fields",
+      "11": "Now in Season: Coffee Harvest & Clear Skies",
+      "12": "Now in Season: Pepper Vines & Winter Sunshine"
+    },
+    "locationShort": "Attappadi, Kerala",
+    "heritageBadge": "Attappadi Heritage Registered",
+    "seasonal": {
+      "enabled": true,
+      "title": "Rambutan & Late Monsoon Blooms",
+      "description": "Fresh seasonal fruit, late monsoon greenery and quiet valley mornings at Greeda’s Grange.",
+      "image": {
+        "src": "",
+        "alt": "Seasonal rambutan and late monsoon blooms"
+      }
+    }
+  },
+  "nav": {
+    "menuItems": [
+      {
+        "label": "The Sanctuary",
+        "href": "#sanctuary"
+      },
+      {
+        "label": "Rooms & Lodges",
+        "href": "#rooms"
+      },
+      {
+        "label": "Nature & Amenities",
+        "href": "#amenities"
+      },
+      {
+        "label": "Flora & Fauna",
+        "href": "#flora-fauna"
+      },
+      {
+        "label": "Guestbook Reviews",
+        "href": "#reviews"
+      },
+      {
+        "label": "General FAQ",
+        "href": "#faq"
+      }
+    ],
+    "bookButtonLabel": "Reserve Stillness",
+    "mobileDrawerTitle": "Explore Grange",
+    "mobileFooterNote": "Nestled since 1894 • Kerala"
+  },
+  "hero": {
+    "badge": "A Slow Living Haven on the Hillside",
+    "headingLines": [
+      "Where luxury meets",
+      "gentle wild sanctuary",
+      "stillness."
+    ],
+    "paragraph": "Greeda’s Grange is a meticulously restored historic sanctuary cradled in the biodiverse tropical greenery of the Kerala Western Ghats mountains, where every acre is left to coexist with its native flora and fauna. Crafted for dreamers, ramblers, and those seeking to slow their internal watch.",
+    "primaryCta": "Check Availability",
+    "secondaryCta": "Our Story",
+    "trustMetrics": [
+      {
+        "value": "4",
+        "label": "Unique Rooms",
+        "icon": "BedDouble"
+      },
+      {
+        "value": "120",
+        "label": "Acres of Wild Sanctuary",
+        "icon": "Mountain"
+      },
+      {
+        "value": "4.98",
+        "label": "Guest Rating",
+        "icon": "Star"
+      }
+    ],
+    "mainImage": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/KeralaHouse.jpg/500px-KeralaHouse.jpg",
+      "alt": "Traditional Kerala Heritage House",
+      "caption": "The Grange Sanctuary",
+      "captionSub": "Restored 1894 heritage architecture"
+    },
+    "polaroidImage": {
+      "src": "https://images.unsplash.com/photo-1440342359743-84fcb8c21f21?auto=format&fit=crop&w=400&q=80",
+      "alt": "Bamboo Forest Canopy",
+      "caption": "Forest Canopy",
+      "captionSub": "Native Bamboo Grove"
+    },
+    "medalLabel": "Best Homestay"
+  },
+  "sanctuary": {
+    "eyebrow": "The Heritage",
+    "headingLines": [
+      "Gathering Stillness,",
+      "One Dawn at a Time"
+    ],
+    "paragraphs": [
+      "Greeda’s Grange dates back to 1894, originally operating as a hillside spice storehouse. Following three decades of deliberate, warm wooden restoration, it now invites travelers into a state of deep, high-contrast tropical peace in Attappadi, Kerala.",
+      "We operate as a genuine eco-sanctuary, coexisting with the native biodiversity around us rather than clearing it, while maintaining every modern comfort (integrated luxury bathrooms, premium heating, and high-speed Starlink routers hidden safely inside restored wooden trunks). Here, you will find quiet river paths, private clear-water natural spring tub baths, and fresh organic tea leaves."
+    ],
+    "images": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Attappadi.jpg/500px-Attappadi.jpg",
+        "alt": "The Attappadi Valley, Palakkad District"
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Westernghats_river_gobi.jpg/500px-Westernghats_river_gobi.jpg",
+        "alt": "Bhavani River Valley, Western Ghats"
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/AnaimudiPeak_DSC_4834.jpg/500px-AnaimudiPeak_DSC_4834.jpg",
+        "alt": "Misty Peaks of the Western Ghats",
+        "overlayLabel": "The Valleys"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Morning Malabar Breakfast",
+        "text": "Steamed fresh baby bananas, warm organic rice puttu, and hand-ground filter coffee at 7:00 AM."
+      },
+      {
+        "title": "Free-Range Wilderness Walks",
+        "text": "Walk freely through 120 acres of native spice gardens, mountain streams, and ancient rosewood trees left wild for local wildlife."
+      }
+    ]
+  },
+  "rooms": {
+    "eyebrow": "The Sanctuaries",
+    "heading": "Curated Spaces for Slow Living",
+    "description": "Each cottage structure is crafted from native honeyed limestone, furnished with handmade furniture, and equipped with cozy fireplaces for your peaceful respite.",
+    "highlightsLabel": "Lodging Highlights",
+    "selectButtonLabel": "Select & Quote Room",
+    "selectedButtonLabel": "Selected & Pre-Filled",
+    "activeSelectionLabel": "Active Selection",
+    "minNightsSuffix": "min (2 nights)",
+    "sleepsLabel": "Sleeps",
+    "areaLabel": "Area",
+    "bedsLabel": "Beds",
+    "guestsSuffix": "Guests",
+    "areaSuffix": "sq ft"
+  },
+  "amenitiesSection": {
+    "eyebrow": "The Experience",
+    "heading": "Curated Amenities & Sanctuary Offerings",
+    "description": "From hot bread baskets delivered at sun-up to wild rosemary-infused local cider under starlight, we invite you to live and breathe sensory sanctuary comfort.",
+    "categories": [
+      {
+        "label": "All Sanctuary Perks",
+        "value": "all"
+      },
+      {
+        "label": "Wild Nature Paths",
+        "value": "nature"
+      },
+      {
+        "label": "Homemade Dining",
+        "value": "dining"
+      },
+      {
+        "label": "Forest Utilities",
+        "value": "utilities"
+      }
+    ],
+    "spotlightEyebrow": "Spotlight Benefit",
+    "highlightsLabel": "Premium Service Features"
+  },
+  "floraFaunaSection": {
+    "eyebrow": "The Wild Life",
+    "heading": "Flora & Fauna of the Grange",
+    "description": "Greeda’s Grange shares its 120 acres with the native plants and creatures of the Attappadi hills. Here is a small catalogue of the neighbors you may meet on your walks.",
+    "scientificNameLabel": "Scientific Name"
+  },
+  "bookingSection": {
+    "eyebrow": "Pricing Desk",
+    "heading": "Estimate & Custom Quote",
+    "roomLabel": "Select Country Lodge",
+    "checkInLabel": "Check-In Arrival",
+    "checkOutLabel": "Check-Out Departure",
+    "nameLabel": "Your Full Name",
+    "namePlaceholder": "E.g. Clara Finch",
+    "emailLabel": "E-mail Address",
+    "emailPlaceholder": "clara@example.com",
+    "guestsLabel": "Total Guest Count",
+    "phoneLabel": "Phone/Cell Number",
+    "phoneOptional": "(Optional)",
+    "phonePlaceholder": "+91 94470 12345",
+    "requestsLabel": "Special Requests & Dietary Requirements",
+    "requestsPlaceholder": "Tell Greeda about any allergies, birthday plans, pet check-ins, or Malabar breakfast requests...",
+    "minNightsError": "A minimum reservation duration of 2 nights is required for rural grange lodging.",
+    "minNightsNotice": "* 2 nights minimum stay required. Please adjust check-out date above.",
+    "subtotalLabelSuffix": "night",
+    "taxLabel": "Kerala Valley Hospitality Levy",
+    "cleanFeeLabel": "Fresh Linen & Malabar Breakfast Basket",
+    "totalLabel": "Estimated Total Quote",
+    "submitButtonLabel": "Inquire & Finalize Inquiry",
+    "successTitle": "Grange Inquiry Logged!",
+    "confirmationPrefix": "Confirmation #",
+    "hostessLabel": "Hostess",
+    "hostessName": "Greeda’s Grange",
+    "guestLabel": "Guest Registrant",
+    "suiteLabel": "Selected Suite",
+    "stayLengthLabel": "Length of Stay",
+    "stayCalendarLabel": "Stay Calendar",
+    "requestsShownLabel": "Your Special Requests",
+    "invoiceLabel": "Estimated Invoice",
+    "trustNote": "Excellent. Hostess Greeda has logged this inquiry automatically. Enjoy looking forward to warm country biscuits!",
+    "emptyStateTitle": "Quote Calculation Pending",
+    "emptyStateText": "Fill out the reservation desk inquiry form on the left. The estimated quote will appear here. No deposits needed!",
+    "storedInquiriesLabel": "Stored Inquiries",
+    "storageTag": "Local Storage"
+  },
+  "reviewsSection": {
+    "eyebrow": "The Guestbook",
+    "heading": "Words Shared by Our Ramblers",
+    "description": "Read authentic chronicles of rest, fireside reflection, and morning sourdough bakes. Leave your own memory to gather Greeda's heartwarm response.",
+    "formTitle": "Sign the Guestbook",
+    "nameLabel": "Your Name or Moniker",
+    "namePlaceholder": "E.g., Julian & Marie",
+    "roomLabel": "Lodging Selection",
+    "ratingLabel": "Rating Count",
+    "textLabel": "Write Your Review Memory",
+    "textPlaceholder": "Describe your quietest moment, the sourdough crumb, or your chats with Hostess Greeda...",
+    "submitLabel": "Publish recollection",
+    "submittingLabel": "Greeda is replying...",
+    "filterLabel": "Filter Shared recollections:",
+    "emptyStateText": "No reviews fit this rating filter yet.",
+    "stayedInPrefix": "Stayed in:",
+    "hostReplyName": "Host Greeda Grange",
+    "hostReplyTag": "Hostess",
+    "googleReviewsLabel": "Read Verified Reviews on Google",
+    "googleReviewsUrl": "https://www.google.com/maps?cid=7076762237378759545"
+  },
+  "locationSection": {
+    "eyebrow": "The Location",
+    "headingLines": [
+      "Where Mountains Whisper,",
+      "Deep in Attappadi"
+    ],
+    "paragraph": "Greeda’s Grange is nestled in the serene tropical heights of Mundanpara, near Agali in Attappadi, Kerala. Tucked away from traffic and city clocks, our peaceful sanctuary is enveloped by misty mountain winds, forest streams, and native spice gardens.",
+    "plusCodeLabel": "Google Plus Code",
+    "plusCode": "2JW7+G8C Jellippara, Kerala",
+    "plusCodeHint": "Simply tap or search this Plus Code on Google Maps for accurate route guidance directly to our wooden fence.",
+    "mapsButtonLabel": "Open in Google Maps",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=2JW7%2BG8C+Jellippara%2C+Kerala",
+    "mapEmbedUrl": "https://maps.google.com/maps?q=2JW7+G8C%20Jellippara,%20Kerala&t=&z=14&ie=UTF8&iwloc=&output=embed",
+    "overlayTitle": "Greeda's Grange, Attappadi",
+    "overlayAddress": "Mundanpara, Agali, Kerala - 678 581",
+    "directionsButtonLabel": "Directions"
+  },
+  "faqSection": {
+    "eyebrow": "Answers to Curiosities",
+    "heading": "Stay & Journey Details",
+    "description": "Everything to know about your pilgrimage to our quiet forest sanctuary.",
+    "categoryLabel": "Category:"
+  },
+  "footer": {
+    "tagline": "We pledge to protect your silence. Our cottages are built from local timber, cooled by mountain breezes, and managed with organic care to make your journey outstandingly clean.",
+    "roomsHeading": "The Rooms",
+    "contactHeading": "Contact & Location",
+    "address": "Greeda's Grange, Mundanpara, Agali, Attappadi, Kerala - 678 581",
+    "phone": "+91 94470 12345",
+    "email": "welcome@greedasgrange.in",
+    "copyrightSuffix": "Greeda's Grange. All rights reserved. Sourdough bakes daily.",
+    "legalLinks": [
+      "Quiet Terms",
+      "Estates Board"
+    ],
+    "madeWithNote": "MADE WITH COSY EDITORIAL EMBERS"
+  }
+}

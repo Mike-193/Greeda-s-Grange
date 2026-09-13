@@ -1,0 +1,22 @@
+{
+  "airbnbUrl": "https://www.airbnb.co.in/rooms/1703681930417972639",
+  "calendarUrl": "https://www.airbnb.co.in/calendar/ical/1703681930417972639.ics?t=30265e494fa64fc2a871ac0b727f03ac",
+  "reserveButtonLabel": "View Airbnb",
+  "reserveNote": "Prefer to book through Airbnb? You can still reserve there directly.",
+  "unavailableError": "Those dates overlap with an existing reservation. Please choose different dates.",
+  "unavailableLabel": "Currently unavailable:",
+  "selectDatePlaceholder": "Select date",
+  "calendarLegendSelected": "Selected",
+  "calendarLegendInRange": "In range",
+  "calendarLegendUnavailable": "Unavailable",
+  "minNights": 2,
+  "taxRate": 0.08,
+  "cleanFee": 1500,
+  "currencySymbol": "₹",
+  "directBookingTitle": "Book Directly & Get a Discount",
+  "directBookingMessage": "Call the property directly to check availability and ask about the best direct-booking rate.",
+  "directBookingPhone": "+91 6379935003",
+  "directBookingNote": "Direct booking may offer a better rate. Availability is confirmed by the property.",
+  "whatsappNumber": "916379935003",
+  "whatsappMessageIntro": "Hello, I would like to request a quote."
+}
