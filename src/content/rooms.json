@@ -40,7 +40,7 @@
       ],
       "capacity": 2,
       "id": "room-2",
-      "image": "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=1000&q=80",
+      "image": "/uploads/bedroom-2.jpg",
       "bedType": "1 Cozy Queen",
       "description": "Room 2 embraces natural earth elements and hand-crafted stone interiors. Featuring gorgeous custom wood decor, high-pitched ventilation, and windows that open straight to the native fruiting canopy.",
       "features": [
