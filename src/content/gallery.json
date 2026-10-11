@@ -9,21 +9,27 @@
   "photos": [
     {
       "id": "property-1",
-      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Attappadi.jpg/500px-Attappadi.jpg",
+      "src": "/uploads/from-viewpoint.jpg",
       "alt": "The Attappadi Valley, Palakkad District",
-      "caption": "The Valley"
+      "caption": "Viewpoint"
     },
     {
       "id": "property-2",
-      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Westernghats_river_gobi.jpg/500px-Westernghats_river_gobi.jpg",
+      "src": "/uploads/cowshed.jpg",
       "alt": "Bhavani River Valley, Western Ghats",
-      "caption": "River Valley"
+      "caption": "Cowshed"
     },
     {
       "id": "property-3",
-      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/AnaimudiPeak_DSC_4834.jpg/500px-AnaimudiPeak_DSC_4834.jpg",
+      "src": "/uploads/pathway-view-2.jpg",
       "alt": "Misty Peaks of the Western Ghats",
-      "caption": "The Valleys"
+      "caption": "Pathway"
+    },
+    {
+      "id": "property-4",
+      "src": "/uploads/viewpoint.jpg",
+      "alt": "The Attappadi Valley, Palakkad District",
+      "caption": "Viewpoint"
     }
   ]
 }
