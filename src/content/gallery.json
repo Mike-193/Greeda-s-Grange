@@ -11,19 +11,19 @@
       "id": "property-1",
       "src": "/uploads/from-viewpoint.jpg",
       "alt": "The Attappadi Valley, Palakkad District",
-      "caption": "The Valley"
+      "caption": "Viewpoint"
     },
     {
       "id": "property-2",
       "src": "/uploads/cowshed.jpg",
       "alt": "Bhavani River Valley, Western Ghats",
-      "caption": "River Valley"
+      "caption": "Cowshed"
     },
     {
       "id": "property-3",
       "src": "/uploads/pathway-view-2.jpg",
       "alt": "Misty Peaks of the Western Ghats",
-      "caption": "The Valleys"
+      "caption": "Pathway"
     }
   ]
 }
