@@ -1,13 +1,10 @@
 {
   "rooms": [
     {
-      "id": "room-1",
+      "pricePerNight": 6999,
       "name": "Room 1",
       "shortDesc": "A serene mountain-facing sanctuary looking out onto misty forest peaks.",
-      "description": "Room 1 offers panoramic views of the Western Ghats mountain range of Attappadi. Complete with handcrafted wooden furnishings, organic cotton textiles, and a private balcony to enjoy the fresh tropical Kerala breeze.",
-      "capacity": 2,
-      "pricePerNight": 6999,
-      "image": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1000&q=80",
+      "sizeSqFt": 340,
       "amenities": [
         "King Bed",
         "En-suite Bath",
@@ -16,8 +13,11 @@
         "Premium Linens",
         "Wi-Fi"
       ],
-      "sizeSqFt": 340,
+      "capacity": 2,
+      "id": "room-1",
+      "image": "/uploads/bedroom-1.jpg",
       "bedType": "1 Luxury King",
+      "description": "Room 1 offers panoramic views of the Western Ghats mountain range of Attappadi. Complete with handcrafted wooden furnishings, organic cotton textiles, and a private balcony to enjoy the fresh tropical Kerala breeze.",
       "features": [
         "Private balcony with mountain views",
         "Artisanal wooden dressing table",
@@ -26,13 +26,10 @@
       ]
     },
     {
-      "id": "room-2",
+      "pricePerNight": 7999,
       "name": "Room 2",
       "shortDesc": "Cozy and rustic clay-themed retreat designed for traditional relaxation.",
-      "description": "Room 2 embraces natural earth elements and hand-crafted stone interiors. Featuring gorgeous custom wood decor, high-pitched ventilation, and windows that open straight to the native fruiting canopy.",
-      "capacity": 2,
-      "pricePerNight": 7999,
-      "image": "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=1000&q=80",
+      "sizeSqFt": 280,
       "amenities": [
         "Queen Bed",
         "Attached Modern Bath",
@@ -41,8 +38,11 @@
         "Sound System",
         "Wi-Fi"
       ],
-      "sizeSqFt": 280,
+      "capacity": 2,
+      "id": "room-2",
+      "image": "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=1000&q=80",
       "bedType": "1 Cozy Queen",
+      "description": "Room 2 embraces natural earth elements and hand-crafted stone interiors. Featuring gorgeous custom wood decor, high-pitched ventilation, and windows that open straight to the native fruiting canopy.",
       "features": [
         "Direct stepping-stone path access to the wild orchid grove",
         "Handcrafted terracotta planters with native herbs",
@@ -51,13 +51,10 @@
       ]
     },
     {
-      "id": "room-3",
+      "pricePerNight": 9499,
       "name": "Room 3",
       "shortDesc": "Environmentally safe bamboo and wood cottage with panoramic canopy views.",
-      "description": "Our highest sanctuary, Room 3 features sustainable bamboo work and sliding glass doors that completely merge the bedroom with the forest canopy. Highly private and surrounded by lush green foliage.",
-      "capacity": 2,
-      "pricePerNight": 9499,
-      "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1000&q=80",
+      "sizeSqFt": 300,
       "amenities": [
         "King Bed",
         "Veranda Seating",
@@ -66,8 +63,11 @@
         "Hanging Hammock",
         "Wi-Fi"
       ],
-      "sizeSqFt": 300,
+      "capacity": 2,
+      "id": "room-3",
+      "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1000&q=80",
       "bedType": "1 Premium King Bed",
+      "description": "Our highest sanctuary, Room 3 features sustainable bamboo work and sliding glass doors that completely merge the bedroom with the forest canopy. Highly private and surrounded by lush green foliage.",
       "features": [
         "Sliding bamboo screens for natural shade",
         "Private sunrise hammock under the trees",
@@ -76,13 +76,10 @@
       ]
     },
     {
-      "id": "room-4",
+      "pricePerNight": 13999,
       "name": "Room 4",
       "shortDesc": "Expansive plantation suite designed for family slow-living.",
-      "description": "Our largest accommodation, Room 4 is a luxury bedroom featuring teak wood flooring and classic high ceilings. Outfitted with separate reading alcoves and direct access to the communal firepit and dining hall.",
-      "capacity": 4,
-      "pricePerNight": 13999,
-      "image": "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1000&q=80",
+      "sizeSqFt": 580,
       "amenities": [
         "King Bed",
         "Two Single Daybeds",
@@ -91,8 +88,11 @@
         "Tea-Coffee Station",
         "Wi-Fi"
       ],
-      "sizeSqFt": 580,
+      "capacity": 4,
+      "id": "room-4",
+      "image": "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1000&q=80",
       "bedType": "1 King Bed + 2 Daybeds",
+      "description": "Our largest accommodation, Room 4 is a luxury bedroom featuring teak wood flooring and classic high ceilings. Outfitted with separate reading alcoves and direct access to the communal firepit and dining hall.",
       "features": [
         "Premium spacious layout with wooden reading table",
         "Double rain showers and organic spice bath-salts",
