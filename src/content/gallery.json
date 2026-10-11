@@ -24,6 +24,12 @@
       "src": "/uploads/pathway-view-2.jpg",
       "alt": "Misty Peaks of the Western Ghats",
       "caption": "Pathway"
+    },
+    {
+      "id": "property-4",
+      "src": "/uploads/viewpoint.jpg",
+      "alt": "The Attappadi Valley, Palakkad District",
+      "caption": "Viewpoint"
     }
   ]
 }
